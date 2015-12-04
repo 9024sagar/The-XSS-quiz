@@ -1,0 +1,35 @@
+1. <script>alert(document.domain);</script>
+    As the Hint is very simple, so it should be the very basic script
+    
+2. ></script>">'><script>alert(document.domain);</script>
+    The above line is joining of two java script code the joiner being ">'> as the js is blocking the first </script>
+
+3. ></script>">'><script>alert(document.domain);</script>
+    This time '>' and '<' are properly blocked so you have to write this code in the 'select'(Drop Down Menu) field of 
+    the HTML code, you can do so by going to the inspect element of the 'select'(Drop Down Menu) field.
+
+4. ></script>">'><script>alert(document.domain);</script>
+    Now paste the same code in the search filed and before clicking on the submit button start tamper data and then click on submit
+    on the wondow of temper data you will see a hidden field, now paste the code in this text filed and hit submit 
+
+5. ></script>">'><script>alert(document.domain);</script>
+    In this challenge they have limited the length of the input field, to overcome this start temper data paste the code in the 
+    search field.
+
+6. "onmouseover = "alert(document.domain);" 
+    As the hint suggests, this one has something to do with events so this simple event handler code will do the work with just a
+    double quote infront of it.
+
+7. xss onmouseover = alert(document.domain)
+    Now they are escaping the quotes. So we are just going to avoid them, due the property of js we can do so.
+
+8. javascript:alert(document.domain);
+    The  hint says the 'javascript' scheme so just writing in the old js coding style, works fine.
+
+9. alert(document.domain);
+    Paste the above code in the firefox's console box. As this problem can not be solved.
+    
+10. " onmouseover = "alert(document.domaidomainn)"
+    Going with the hint and after trying different codes i realised that it is omiting some of my character 
+    from the code so i came up with this code finally
+    
